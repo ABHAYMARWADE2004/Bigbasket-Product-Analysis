@@ -1,14 +1,10 @@
 # BigBasket Product Analysis
 
-Exploratory data analysis of BigBasket's product catalogue using **Python, Pandas, NumPy, Matplotlib and Seaborn**. The repo also includes foundational notebooks that build up the techniques used in the analysis.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+Exploratory Data Analysis Of BigBasket's Product Catalogue Using **Python, Pandas, NumPy, Matplotlib and Seaborn**. The Repo Also Includes Foundational Notebooks That Build Up The Techniques Used In The Analysis.
 
 ## Objective
 
-Understand the BigBasket product catalogue by exploring pricing, categories, brands and ratings, and present the findings through clear visualizations.
+Understand The BigBasket Product Catalogue By Exploring Pricing, Categories, Brands and Ratings, And Present The Findings Through Clear Visualizations.
 
 ## Dataset
 
@@ -73,7 +69,7 @@ Python · Jupyter Notebook · NumPy · Pandas · Matplotlib · Seaborn
 
 ## Skills Demonstrated
 
-Data cleaning · Exploratory Data Analysis (EDA) · Data manipulation · Data visualization · Insight storytelling
+Data cleaning · Exploratory Data Analysis (EDA) · Data manipulation · Data visualization · Insight Storytelling
 
 ## Author
 
