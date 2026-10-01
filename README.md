@@ -1,69 +1,83 @@
-# Python Data Analysis
+# BigBasket Product Analysis
 
-A Practical Python Data Analysis Repository Covering Essential Libraries Used For Data Manipulation, Analysis And Visualization.
+Exploratory data analysis of BigBasket's product catalogue using **Python, Pandas, NumPy, Matplotlib and Seaborn**. The repo also includes foundational notebooks that build up the techniques used in the analysis.
 
-## About
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
 
-This Repository Contains My Hands-on Learning Notebooks For Python-Based Data Analysis. It Includes Practical Examples, Exercises, and Visualization Techniques Using Popular Python Libraries.
+## Objective
+
+Understand the BigBasket product catalogue by exploring pricing, categories, brands and ratings, and present the findings through clear visualizations.
+
+## Dataset
+
+`data/BigBasket_Products.csv`
+
+- **Rows / Columns:** [add from `df.shape`]
+- **Key columns:** [e.g. product, category, brand, sale price, market price, rating]
+
+## Key Insights
+
+- [e.g. Top 5 categories by number of products]
+- [e.g. Price distribution across categories]
+- [e.g. Brands with the highest average discount]
+- [e.g. Relationship between price and rating]
+
+## Visualizations
+
+<!-- Save 2-3 best charts in images/ and add them like this: -->
+<!-- ![Top Categories](images/top_categories.png) -->
 
 ## Notebooks
 
-### 1. NumPy
+| # | Notebook | Purpose |
+|---|----------|---------|
+| 1 | [NumPy Basics](notebooks/01_numpy_basics.ipynb) | Arrays, indexing, slicing, numerical operations |
+| 2 | [Pandas Data Analysis](notebooks/02_pandas_data_analysis.ipynb) | Data cleaning, filtering, grouping and EDA on BigBasket data |
+| 3 | [Matplotlib Visualization](notebooks/03_matplotlib_visualization.ipynb) | Line, bar, scatter plots and histograms |
+| 4 | [Seaborn Visualization](notebooks/04_seaborn_visualization.ipynb) | Distribution and relationship plots |
 
-Introduction to NumPy Arrays, Operations, Indexing, Slicing, And Numerical Computations.
+## Getting Started
 
-### 2. Pandas Data Analysis
+```bash
+git clone https://github.com/ABHAYMARWADE2004/bigbasket-product-analysis.git
+cd bigbasket-product-analysis
 
-Hands-on Practice With DataFrames, Series, Data Manipulation, Filtering, Cleaning, And Basic Analysis.
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
 
-### 3. Matplotlib Visualization
+pip install -r requirements.txt
+jupyter notebook
+```
 
-Exploring Data Visualization Using Line Charts, Bar Charts, Scatter Plots, histograms, And Other Plots.
+## Project Structure
 
-### 4. Seaborn Visualization
-
-Creating Statistical And Attractive Visualizations Using Seaborn, Including Relationship And Distribution Plots.
-
-## Technologies Used
-
-* Python
-* Jupyter Notebook
-* NumPy
-* Pandas
-* Matplotlib
-* Seaborn
-
-## Skills Practiced
-
-* Data Analysis
-* Data Manipulation
-* Data Visualization
-* Exploratory Data Analysis
-* Numerical Computing
-* Python Programming
-
-## Repository Structure
-
-```text
-Python-Data-Analysis/
-│
-├── Numpy.ipynb
-├── Pandas_Data_Analysis.ipynb
-├── Matplotlib-visualization.ipynb
-├── seaborn-visualization.ipynb
+```
+bigbasket-product-analysis/
+├── data/
+│   └── BigBasket_Products.csv
+├── notebooks/
+│   ├── 01_numpy_basics.ipynb
+│   ├── 02_pandas_data_analysis.ipynb
+│   ├── 03_matplotlib_visualization.ipynb
+│   └── 04_seaborn_visualization.ipynb
+├── images/
+├── requirements.txt
 └── README.md
 ```
 
-## Learning Objective
+## Tech Stack
 
-The Goal Of This Repository Is To Build a Strong Foundation In Python For Data Analysis And Develop Practical Skills That Can Be Applied To Rreal-World Datasets And Data-Driven Projects.
+Python · Jupyter Notebook · NumPy · Pandas · Matplotlib · Seaborn
+
+## Skills Demonstrated
+
+Data cleaning · Exploratory Data Analysis (EDA) · Data manipulation · Data visualization · Insight storytelling
 
 ## Author
 
 **Abhay Marwade**
+ Aspiring Data Analyst
 
-BSc Computer Science | Aspiring Data Analyst
-
-## Connect
-
-* GitHub: [ABHAYMARWADE2004](https://github.com/ABHAYMARWADE2004)
+[GitHub](https://github.com/ABHAYMARWADE2004)
