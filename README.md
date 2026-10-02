@@ -1,6 +1,6 @@
 # BigBasket Product Analysis
 
-Exploratory Data Analysis of BigBasket's Product Catalogue Using **Python, Pandas, NumPy, Matplotlib and Seaborn**. The repo also includes Foundational Notebooks That Build Up The Techniques Used In The Analysis.
+Exploratory data analysis of BigBasket's product catalogue using **Python, Pandas, NumPy, Matplotlib and Seaborn**. The Repo also includes foundational notebooks that build up the techniques used in the analysis.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
@@ -8,7 +8,7 @@ Exploratory Data Analysis of BigBasket's Product Catalogue Using **Python, Panda
 
 ## Objective
 
-Understand The BigBasket Product Catalogue By Exploring Pricing, Categories, Brands And Ratings And Present The Findings Through Clear Visualizations.
+Understand the BigBasket product catalogue by exploring pricing, categories, brands and ratings and present the findings through clear visualizations.
 
 ## Dataset
 
@@ -16,18 +16,18 @@ Understand The BigBasket Product Catalogue By Exploring Pricing, Categories, Bra
 
 - **Size:** 27,555 products x 10 columns
 - **Columns:** `index`, `product`, `category`, `sub_category`, `brand`, `sale_price`, `market_price`, `type`, `rating`, `description`
-- **Coverage:** 11 Categories, 90 Sub-Categories, 426 Product Types And 2,313 Brands
-- **Data quality:** 8,626 Products (31.3%) Have No Rating and 115 Have No Description. No Row Has a Sale Price Higher Than Its Market Price.
+- **Coverage:** 11 categories, 90 sub-categories, 426 product types and 2,313 brands
+- **Data quality:** 8,626 products (31.3%) have no rating and 115 have no description. No row has a sale price higher than its market price.
 
 ## Key Insights
 
-- **Beauty & Hygiene Is The Largest Category** with 7,867 products (28.6% of the Catalogue). The Top 3 categories (Beauty & Hygiene, Gourmet & World Food, Kitchen/Garden/Pets) Make Up 58.6% of All Products.
-- **55.3% of Products Are Sold At a Discount.** Among Discounted Items The Average discount is 21.4%, And Across The Whole Catalogue It Is 11.8%.
-- **Discounts Vary a Lot By Category.** Kitchen, Garden & Pets (22.2%) And Fruits & Vegetables (21.2%) Have The Highest Average Discounts, While Baby Care (5.9%) And Snacks & Branded Foods (6.6%) Have The Lowest.
-- **Prices Are Right-Skewed.** The Average Sale Price Is Rs. 322.5 But The Median Is Only Rs. 190, Because a Few Premium Items Go up to Rs. 12,500.
-- **Ratings Are Generally High.** The average rating is 3.94 And 65.3% Of Rated Products Have 4.0 Or Above.
-- **Price And Rating Are Almost Unrelated** (Correlation -0.08), So a Higher Price Does Not Mean a Better Rating. Budget products (Under Rs. 100) Even Average a Higher rating (4.03) Than Premium Products of Rs. 1000 and Above (3.75).
-- **Fresho is The Most Common Brand** (638 products), Followed By BB Royal (539) And BB Home (428).
+- **Beauty & Hygiene is the largest category** with 7,867 products (28.6% of the catalogue). The top 3 categories (Beauty & Hygiene, Gourmet & World Food, Kitchen/Garden/Pets) make up 58.6% of all products.
+- **55.3% of products are sold at a discount.** Among discounted items the average discount is 21.4%, and across the whole catalogue it is 11.8%.
+- **Discounts vary a lot by category.** Kitchen, Garden & Pets (22.2%) and Fruits & Vegetables (21.2%) have the highest average discounts, while Baby Care (5.9%) and Snacks & Branded Foods (6.6%) have the lowest.
+- **Prices are right-skewed.** The average sale price is Rs. 322.5 but the median is only Rs. 190, because a few premium items go up to Rs. 12,500.
+- **Ratings are generally high.** The average rating is 3.94, and 65.3% of rated products have 4.0 or above.
+- **Price and rating are almost unrelated** (correlation -0.08), so a higher price does not mean a better rating. Budget products (under Rs. 100) even average a higher rating (4.03) than premium products of Rs. 1000 and above (3.75).
+- **Fresho is the most common brand** (638 products), followed by bb Royal (539) and BB Home (428).
 
 ## Visualizations
 
@@ -44,10 +44,10 @@ Understand The BigBasket Product Catalogue By Exploring Pricing, Categories, Bra
 
 | # | Notebook | Purpose |
 |---|----------|---------|
-| 1 | [NumPy Basics](notebooks/01_numpy_basics.ipynb) | Arrays, Indexing, Filtering, Statistics, And NumPy On the BigBasket Data |
-| 2 | [Pandas Data Analysis](notebooks/02_pandas_data_analysis.ipynb) | Data Cleaning, Filtering, Grouping And EDA On BigBasket Data |
-| 3 | [Matplotlib Visualization](notebooks/03_matplotlib_visualization.ipynb) | Line, Bar, Histogram, Box And Scatter Plots |
-| 4 | [Seaborn Visualization](notebooks/04_seaborn_visualization.ipynb) | Distribution And Relationship Plots |
+| 1 | [NumPy Basics](notebooks/01_numpy_basics.ipynb) | Arrays, indexing, filtering, statistics, and NumPy on the BigBasket data |
+| 2 | [Pandas Data Analysis](notebooks/02_pandas_data_analysis.ipynb) | Data cleaning, filtering, grouping and EDA on BigBasket data |
+| 3 | [Matplotlib Visualization](notebooks/03_matplotlib_visualization.ipynb) | Line, bar, histogram, box and scatter plots |
+| 4 | [Seaborn Visualization](notebooks/04_seaborn_visualization.ipynb) | Distribution and relationship plots |
 
 ## Getting Started
 
@@ -89,7 +89,7 @@ Python · Jupyter Notebook · NumPy · Pandas · Matplotlib · Seaborn
 
 ## Skills Demonstrated
 
-Data Cleaning · Exploratory Data Analysis (EDA) · Data Manipulation · Data Visualization 
+Data cleaning · Exploratory data analysis (EDA) · Data manipulation · Data visualization · Insight storytelling
 
 ## Author
 
