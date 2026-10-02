@@ -2,4 +2,4 @@ numpy
 pandas
 matplotlib
 seaborn
-jupyter notebook
+jupyter
