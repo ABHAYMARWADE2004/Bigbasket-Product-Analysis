@@ -38,7 +38,7 @@ Understand The BigBasket Product Catalogue By Exploring Pricing, Categories, Bra
 
 | # | Notebook | Purpose |
 |---|----------|---------|
-| 1 | [NumPy Basics](notebooks/01_numpy_basics.ipynb) | Arrays, Indexing, Slicing, Numerical Operations |
+| 1 | [NumPy Basics](notebooks/01_numpy_basics.ipynb) |Arrays, Indexing, Filtering, Statistics And NumPy On the BigBasket data |
 | 2 | [Pandas Data Analysis](notebooks/02_pandas_data_analysis.ipynb) | Data Cleaning, Filtering, Grouping And EDA On BigBasket Data|
 | 3 | [Matplotlib Visualization](notebooks/03_matplotlib_visualization.ipynb) | Line, Bar, Scatter Plots And Histograms |
 | 4 | [Seaborn Visualization](notebooks/04_seaborn_visualization.ipynb) | Distribution And Relationship Plots |
