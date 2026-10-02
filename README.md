@@ -48,15 +48,11 @@ Understand the BigBasket product catalogue by exploring pricing, categories, bra
 | 2 | [Pandas Data Analysis](notebooks/02_pandas_data_analysis.ipynb) | Data cleaning, filtering, grouping and EDA on BigBasket data |
 | 3 | [Matplotlib Visualization](notebooks/03_matplotlib_visualization.ipynb) | Line, bar, histogram, box and scatter plots |
 | 4 | [Seaborn Visualization](notebooks/04_seaborn_visualization.ipynb) | Distribution and relationship plots |
-
 ## Getting Started
 
 ```bash
 git clone https://github.com/ABHAYMARWADE2004/Bigbasket-Product-Analysis.git
 cd Bigbasket-Product-Analysis
-
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 jupyter notebook
